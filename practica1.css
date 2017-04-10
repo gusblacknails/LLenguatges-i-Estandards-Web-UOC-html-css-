@@ -1,0 +1,355 @@
+@charset "UTF-8";
+/* CSS Document */
+*{margin:0px; /*marge del document*/
+  padding:0px;/*separació del text amb el borde de la caixa */
+  font-family:Arial, sans-serif;}/*tipografia utilitzada */
+div{width:974px;/*Amplada */
+	margin:auto;
+	height:auto;}/* Allargada */
+
+#cap{height:50px;;
+     width:100%;}
+	 
+#uoc {  margin: 5px;
+        padding: 5px;
+		height:auto;
+		width:300px;
+		padding-left:100px;
+		}
+		
+#idi {  float:right; /*serveix per maquetar divs*/
+
+		margin: 5px;
+        padding: 5px;
+		height:auto;
+		width:80px;
+		padding-right:100px;
+		}
+		
+header { width:974px;
+		
+        background-size: 100% 100%;/* tamany del fons*/
+        background-repeat: no-repeat;}
+nav {
+    
+    background-color:#CCC; /*Cambia el color de fons */
+    height:30px; 
+    width:100%; 
+}
+div.contenedor{float: left;
+    height:30px; /* Allargada */
+    width:162px;
+	transition:height .4s; /* velocitat del moviment de la caixa */}
+	
+#inici{background-color:#B8B5B5}/* Allargada */
+
+#revistes{background-color:#B8B5B5}/* color de fons */
+
+#xarxa{background-color:#B8B5B5}
+
+#blogs{background-color:#B8B5B5}
+
+#materials{background-color:#B8B5B5}
+
+#videos{background-color:#B8B5B5;
+width:164px;}
+
+p.texto {font-size:14px;/* tamany font */
+		color:#FFF;/* color font */
+		text-align:center;/* alineació del text */
+		padding-top:7px;
+		transition:padding-top .4s;}
+p.section { font-size:14px;
+			color:#FFF;
+			text-align:left;}
+
+div.contenedor:hover{
+	height:38px;}
+div.contenedor:hover p.texto{
+		padding-top:16px;}
+
+footer{background-color:#B8B5B5;
+height:150px;}
+section{height:1400px;
+		padding-left:50px;
+		padding-top:20px;
+		padding-right:30px;
+		background-color:#27305A}
+section.revistes{height:1300px;
+				 padding-left:50px;
+				 padding-top:20px;
+				 padding-right:30px;
+				 background-color:#27305A}
+section.digithumpagina{
+	height: 1100px;
+	padding-left: 60px;
+	padding-top: 20px;
+	padding-right: 20px;
+	background-color: #27305A;
+	padding-bottom: 20px;
+}
+#peu{padding:10px;
+width:370px;
+height:37px;
+float:left;
+}
+#facebook {
+	float:left;
+	border:0px;
+    width: 35px;
+	height:35px;
+    background: url(sprite-xarxes-socials.png) 35px 0px;
+	
+}
+#facebook2 {
+	float:left;
+	border:0px;
+    width: 35px;
+	height:35px;
+    background: url(sprite-xarxes-socials.png) 35px 0px;}
+
+#twitter {
+	float:left;
+    
+    width: 35px;
+	height:35px;
+    background: url(sprite-xarxes-socials.png) 0px 0px;}
+	#twitter2 {
+	float:left;
+    
+    width: 35px;
+	height:35px;
+    background: url(sprite-xarxes-socials.png) 0px 0px;}
+#twitter :hover {
+	
+	
+    background:  url(sprite-xarxes-socials.png) 0px 35px;
+}
+#facebook :hover {
+    background: url(sprite-xarxes-socials.png) 35px 35px;
+}
+p.textofooter { font-size:15px;
+				color:#FFF;
+				text-align:left;}
+#esquerrafooter{padding:5px;
+				width:400px;
+				height:40px;
+				float:left;
+				padding-left:10px;}
+#esquerrafooter2{padding:5px;
+				width:200px;
+				height:37px;
+				margin:0px;
+				
+				padding-left:10px;}
+#dretafooter{padding:10px;
+			 width:110px;
+			 height:100px;
+			 float:right;
+			 padding-left:10px;}
+#dretafooter2{padding:10px;
+			  width:150px;
+			  height:100px;
+			  padding-left:10px;}
+
+div.esquerra{
+	float:left;
+	width:50%;
+	height:50%;
+	}
+div.dreta{
+	float:right;
+	width:50%;
+	height:100px;}
+
+div.digithumL{
+	float: left;
+	width: 550px;
+	height: 1000px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-right-style: none;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	}
+div.digithumR{
+	float:left;
+	width:300px;
+	height:1000px;
+	padding-top:20px;
+	
+	
+	}
+li{color:#FFF;
+}
+a{font-size:15px;
+  text-decoration: none;}
+
+a:link {
+    color: white;
+	}
+a:hover {
+    color: #A5A5A5;
+}
+
+ 
+h4{color:white}
+
+div.inici{
+	height: 380px;
+	width: 50%;
+	float: left;
+	
+}
+div.margen{width:100%;
+           height:30px;
+}
+img.cajas1{margin:20px;
+           height:180px;
+}
+iframe{padding:20px;
+	padding-bottom:0px;}
+h4.caixas{text-align:center;
+		  font-size:14px;}
+p.boxes {font-size:14px;
+color:#FFF;
+text-align:left;
+padding:20px;}
+button.llegirmes{margin-left:20px;
+color:#D9D9D9;
+width:90px;
+height:22px;
+}
+a.leermas{font-family:"Arial Black", Gadget, sans-serif;
+font-size:12px;
+padding-left:18px;}
+div.pagina2{
+	height: 250px;
+	width: 800px;
+	
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-bottom-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+
+}
+img.revisteR{margin:20px;
+height:90px;
+float:right;
+width:330px;}
+img.revisteL{margin:20px;
+height:90px;
+float:left;
+width:330px;}
+img.digithumLogorevista{
+	margin: 20px;
+	left: auto;
+	height: auto;
+	float: none;
+	width: 520px;
+}
+div.textrevL {float:left;
+width:50%;
+height:210px;
+padding-top:20px;
+padding-bottom:20px;}
+div.textrevR {float:right;
+width:50%;
+height:210px;
+padding-top:20px;
+padding-bottom:20px;
+padding-right:10px;}
+p.boxespag2 {
+	font-size: 15px;
+	color: #FFF;
+	text-align: justify;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	padding-left: 20px;
+}
+p.boxespag3 {
+	font-size: 15px;
+	color: #FFF;
+	text-align: justify;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	
+}
+button.llegirmespag2{
+color:#D9D9D9;
+width:100px;
+height:35px;
+}
+ul.llistadigithum{
+	padding-left: 50px;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: justify;
+	color: #B8B5B5;
+	padding-right: 10px;
+	}
+ul.llistadigithumR{
+	padding-left:20px;
+	padding-bottom:20px;
+	
+	font-size:13px;
+	line-height:18px;/* tamany de la linea */
+	text-align:center;
+	color:#B8B5B5;
+	list-style-type:none;/* tipus d'estil. En aquest cas, cap. */
+	
+	
+	}
+h5{text-align:center;
+color: #FFF;
+font-size:16px;
+padding-bottom:10px;
+padding-left:5px;}
+a.llistadreta{ 
+    color: #D9D9D9;
+	text-decoration:none;}
+a.llistadreta:visited{ 
+    color: #D9D9D9;
+	text-decoration:none; /* decoració del text */
+}
+a.llistadreta:hover{ 
+    color: #FFFFFF;
+	text-decoration:underline;
+}
+div.editorial{}
+img.editorialdigitlogo{
+	position: static;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+p.editorial{font-size: 15px;
+	color: #FFF;
+	text-align: justify;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	padding-right: 10px;}
+h2{color:#B8B5B5;}
+h3{color:#D9D9D9;}
+p.creditos{
+	text-align: right;
+	color: #FFF;
+	padding-right: 10px;
+	font-size: 15px;
+}
+#header{width:100%;
+height:200px}
+
+iframe.youtube{border:0px;}/*tamany de la borera de la caixa */
